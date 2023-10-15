@@ -1,0 +1,35 @@
+html{
+    letter-spacing: 2px;
+    scroll-behavior: smooth;
+  }
+
+.card{
+    border: none;
+    outline:none;
+    box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+}
+
+
+
+
+.circle
+{
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    color: #ffcc00;
+    padding: 12px;
+    font-size:30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+.card:hover .circle
+{
+    background-color: #ffcc00;
+    color: white;
+    transition: 0.5s;
+}
+
+/*  */
